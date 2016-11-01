@@ -22,20 +22,32 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app.css" />
-    <Content Include="index.html" />
+    <Content Include="packages.config" />
+    <None Include="Scripts\Jquery\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\Jquery\jquery-3.1.1.js" />
+    <Content Include="Scripts\Jquery\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\Jquery\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\Jquery\jquery-3.1.1.slim.min.js" />
+    <Content Include="Views\Quentions.html" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Scripts\Jquery\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\Jquery\jquery-3.1.1.min.map" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <TypeScriptCompile Include="Controllers\QuentionsController.ts" />
+    <TypeScriptCompile Include="Models\QuentionModels.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="Services\ExamConfigForFirebase.ts" />
+    <TypeScriptCompile Include="Services\QuentionsService.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

@@ -1,0 +1,1 @@
+{"version":3,"file":"ExamConfigForFirebase.js","sourceRoot":"","sources":["ExamConfigForFirebase.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH;IAAA;IAUA,CAAC;IAHU,wCAAkB,GAAzB,UAA0B,aAAa;QACnC,MAAM,CAAC,qBAAqB,CAAC,QAAQ,GAAG,aAAa,GAAE,OAAO,CAAC;IACnE,CAAC;IANM,8BAAQ,GAAG,sCAAsC,CAAC;IAElD,0CAAoB,GAAG,qBAAqB,CAAC,QAAQ,GAAG,gBAAgB,CAAA;IAKnF,4BAAC;AAAD,CAAC,AAVD,IAUC"}
